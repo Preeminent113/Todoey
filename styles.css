@@ -1,0 +1,74 @@
+body {}
+
+.Feature-dotted{
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 20%;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: -10%;
+  /* position:fixed center;
+  align-items: baseline; */
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://rubengallego.house.gov/sites/rubengallego.house.gov/files/styles/congress_featured_image/public/featured_image/office_location/Office-Door-1Small.jpg?itok=7cfQCX8z");
+  padding: 250px;
+  text-align: center;
+  height: 100%;
+  color: white;
+  font-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-item {
+  padding: 2%;
+  text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.testArticle {
+  float: left;
+  padding-right: 400px;
+}
+
+.testArticleTwo {
+  float: right;
+  padding-left: 200px;
+}
+
+.LaunchInfo {
+  padding: 7% 15%;
+  /* text-align: center; */
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.FeatureStories {
+  padding: 7% 15%;
+  /* text-align: center; */
+  background-color: #ef8172;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-Icon {
+  margin: 50px 70px;
+
+}

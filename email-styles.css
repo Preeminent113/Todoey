@@ -1,0 +1,63 @@
+body{
+  margin: 7% 15%;
+  /* padding: 2% 7%; */
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url("https://rubengallego.house.gov/sites/rubengallego.house.gov/files/styles/congress_featured_image/public/featured_image/office_location/Office-Door-1Small.jpg?itok=7cfQCX8z");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-title{
+  margin-top: 100px;
+  color: orange;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+.contact-title h1{
+  font-size: 32px;
+  line-height: 10px;
+}
+.contact-title h2{
+  font-size: 16px;
+}
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+
+
+}
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline:inherit;
+  border-bottom: 1px solid black;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+::placeholder{
+  color: orange;
+}
+
+input{
+  height: 45px;
+}
+
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+
+}
+
+form .submit:hover{
+  background-color: #f44336;
+  cursor: pointer;
+}
